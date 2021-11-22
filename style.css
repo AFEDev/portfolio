@@ -114,14 +114,19 @@ div.hero-box .content {
   margin: 0;
 }
 
-div.carousel {
+div.carousel.seselis {
   margin-bottom: 50px;
   margin-top: 50px;
+  background: rgb(240, 240, 240);
+}
+
+div.carousel.seselis:hover {
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 div.carousel-cell {
   width: 75%;
-  height: 500px;
+  height: 700px;
   margin-right: 10px;
   border-radius: 5px;
 }
